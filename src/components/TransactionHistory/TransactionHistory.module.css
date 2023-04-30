@@ -1,0 +1,36 @@
+.transactionHistory {
+  margin: 15px auto 15px;
+  border-collapse: collapse;
+  width: 70%;
+
+  background-color: rgb(255, 255, 255);
+}
+.string {
+  padding: 8px;
+  text-align: left;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #dadada;
+  color: rgb(63, 63, 63);
+}
+.string:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.string:hover {
+  background-color: rgb(229, 255, 224);
+}
+
+th {
+  /* border-radius: 8px; */
+  background-color: rgb(175, 204, 186);
+  padding: 5px;
+}
+
+td,
+th {
+  /* border-radius: 8px; */
+  width: 100px;
+  text-align: center;
+}
